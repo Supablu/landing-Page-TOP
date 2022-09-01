@@ -3,3 +3,75 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.nav {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info {
+    color: #1f2937;
+}
+
+.info h2 {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.sign {
+    background-color: #3882f6;
+}
+
+.sign-up {
+    border: 1px solid #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+}
