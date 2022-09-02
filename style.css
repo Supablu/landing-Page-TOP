@@ -1,9 +1,10 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
+    max-width: 1920px;
 }
 
 .head {
@@ -15,14 +16,48 @@
     padding: 20px 200px;
 }
 
+.logo {
+    text-align: left;
+    padding: 20px 200px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.nav {
+    margin-right: 0;
+}
+
 .nav li {
     display: inline;
+    /* margin-right: 0; */
 }
 
 .header {
     background-color: #1f2937;
     color: #f9faf8;
     padding: 20px 200px;
+    display: flex;
+}
+
+.header-text {
+    display: block;
+    margin-left: 0;
+}
+
+.header-img {
+    display: flex;
+    margin-right: 0;
+}
+
+.placeholder-img {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-button {
+    display: block;
 }
 
 .header h1 {
@@ -41,6 +76,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    padding: 5px 25px;
 }
 
 .info {
@@ -52,6 +88,8 @@ button {
     justify-content: space-between;
     align-items: center;
     padding: 20px 200px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .image {
@@ -73,7 +111,7 @@ button {
 img {
     width: 200px;
     height: 200px;
-    border: 2px solid #3882f6;
+    border: 5px solid #3882f6;
     border-radius: 10px;
     align-self: center;
 }
@@ -86,6 +124,14 @@ img {
     padding: 20px 200px;
 }
 
+.thor {
+    display: flex;
+    justify-content: right;
+    color: #1f2937;
+    font-weight: bolder;
+    font-style: normal;
+}
+
 
 .sign-container {
     background-color: #f9faf8;
@@ -94,8 +140,10 @@ img {
 
 .sign {
     background-color: #3882f6;
+    color: #f9faf8;
     padding: 20px 150px;
     border-radius: 10px;
+    display: flex;
 }
 
 .sign-up {
