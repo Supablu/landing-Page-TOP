@@ -2,11 +2,9 @@
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-
-/* body {
-    margin: 5px 20px;
-} */
 
 .head {
     background-color: #1f2937;
@@ -19,8 +17,6 @@
 
 .nav li {
     display: inline;
-    /* justify-content: space-between; */
-    /* padding: 20px 100px; */
 }
 
 .header {
@@ -49,27 +45,20 @@ button {
 
 .info {
     color: #1f2937;
-    padding: 20px 200px;
-    display: inline;
-    justify-content: space-between;
 }
 
 .container {
     display: flex;
-    flex: 1;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 200px;
 }
 
 .image {
-    display: block;
-    gap: 52px;
+    display: flex;
+    gap: 1rem;
     text-align: center;
-    /* width: 30%;
-    height: 30%; */
-    padding: 20px 200px;
     flex-direction: column;
-    justify-content: center;
 }
 
 .info h2 {
@@ -82,15 +71,11 @@ button {
 }
 
 img {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
     width: 200px;
     height: 200px;
     border: 2px solid #3882f6;
     border-radius: 10px;
-    justify-content: space-evenly;
+    align-self: center;
 }
 
 .quote {
@@ -101,9 +86,16 @@ img {
     padding: 20px 200px;
 }
 
+
+.sign-container {
+    background-color: #f9faf8;
+    padding: 20px 200px;
+}
+
 .sign {
     background-color: #3882f6;
-    padding: 20px 200px;
+    padding: 20px 150px;
+    border-radius: 10px;
 }
 
 .sign-up {
