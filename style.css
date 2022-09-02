@@ -4,11 +4,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.nav {
+.head {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
     display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 
 .header {
@@ -38,6 +44,19 @@ button {
     color: #1f2937;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: block;
+    gap: 52px;
+    text-align: center;
+    /* width: 30%;
+    height: 30%; */
+}
+
 .info h2 {
     color: #1f2937;
     font-weight: bolder;
@@ -47,10 +66,10 @@ button {
 }
 
 img {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     width: 20%;
     height: 20%;
     border: 2px solid #3882f6;
