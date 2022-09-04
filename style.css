@@ -29,7 +29,7 @@
 
 .nav li {
     display: inline;
-    /* margin-right: 0; */
+    padding: 0 10px;
 }
 
 .header {
@@ -54,6 +54,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 650px;
+    height: 250px;
 }
 
 .header-button {
@@ -63,11 +65,14 @@
 .header h1 {
     font-weight: bolder;
     font-size: 48px;
+    padding-right: 100px;
 }
 
 .header p {
     font-size: 18px;
     color: #e5e7eb;
+    padding-bottom: 13px;
+    padding-right: 30px;
 }
 
 button {
@@ -76,7 +81,9 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    padding: 5px 25px;
+    padding: 10px 40px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .info {
@@ -122,6 +129,7 @@ img {
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
+    font-weight: 600;
     padding: 100px 200px;
 }
 
@@ -131,6 +139,7 @@ img {
     color: #1f2937;
     font-weight: bolder;
     font-style: normal;
+    font-size: 24px;
 }
 
 
@@ -142,13 +151,24 @@ img {
 .sign {
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 20px 150px;
+    padding: 50px 150px;
     border-radius: 10px;
     display: flex;
 }
 
 .sign-up {
-    border: 1px solid #e5e7eb;
+    border: 1px none #e5e7eb;
+}
+
+.sign-up-2 {
+    border: 2px solid #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 footer {
